@@ -1,0 +1,59 @@
+
+#title {
+  position: fixed;
+  background-color: blue;
+  width: 42%;
+  top: 0;
+  left: 0;
+  height: 65%;
+}
+
+#titleDescription {
+  padding-left: 75px;
+}
+
+#continuedDescription {
+  padding-left: 110px;
+}
+
+#name {
+  padding-top: 50px;
+  padding-left: 125px;
+}
+
+.tile {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 57%;
+  height: 100%;
+}
+
+h1 {
+  margin: 0;
+}
+
+#tile1 {
+  background-color: red;
+  width: 100%;
+  height: 50%;
+  left: 0;
+  margin-bottom: 16px;
+}
+
+#tile2 {
+  background-color: purple;
+  width: 100%;
+  height: 50%;
+  left: 0;
+}
+
+.bottomTitle {
+
+  position: fixed;
+  top: 67%;
+  left: 0;
+  background-color: green;
+  width: 42%;
+  height: 33%;
+}
