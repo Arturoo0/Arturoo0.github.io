@@ -1,32 +1,55 @@
 
+body {
+  background-color: white;
+}
+
 #title {
+  font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
   position: fixed;
-  background-color: blue;
-  width: 42%;
-  top: 0;
-  left: 0;
-  height: 65%;
+  background-color: #3F72AF;
+  width: 47%;
+  top: 1.5% ;
+  left: 1.25%;
+  height: 63.75%;
+  border-radius: 3px;
+  box-shadow: 10px 5px 5px rgba(0,0,0,0.4);
 }
 
 #titleDescription {
+  color: white;
   padding-left: 75px;
 }
 
 #continuedDescription {
+  color: white;
   padding-left: 110px;
 }
 
 #name {
+  color: white;
   padding-top: 50px;
   padding-left: 125px;
 }
 
+.bottomTitle {
+
+  box-shadow: 10px 5px 5px rgba(0,0,0,0.4);
+  border-radius: 3px;
+  position: fixed;
+  top: 67%;
+  left: 1.25%;
+  background-color: #C9D1D3;
+  width: 47%;
+  height: 33%;
+}
+
 .tile {
   position: absolute;
-  top: 0;
+  top: 1.5%;
   right: 0;
-  width: 57%;
+  width: 45%;
   height: 100%;
+  left: 50%;
 }
 
 h1 {
@@ -34,26 +57,28 @@ h1 {
 }
 
 #tile1 {
+  box-shadow: 10px 5px 5px rgba(0,0,0,0.4);
+  color: white;
   background-color: red;
-  width: 100%;
+  width: 98%;
   height: 50%;
   left: 0;
+  padding-left: 10%;
+  padding-top: 7%;
   margin-bottom: 16px;
+  border-radius: 3px;
+  background-color: #BAE8E8;
 }
 
 #tile2 {
+  box-shadow: 10px 5px 5px rgba(0,0,0,0.4);
+  color: white;
   background-color: purple;
-  width: 100%;
+  width: 98%;
   height: 50%;
+  padding-left: 10%;
+  padding-top: 7%;
   left: 0;
-}
-
-.bottomTitle {
-
-  position: fixed;
-  top: 67%;
-  left: 0;
-  background-color: green;
-  width: 42%;
-  height: 33%;
+  border-radius: 3px;
+  background-color: #BAE8E8;
 }
