@@ -15,15 +15,41 @@ body {
   overflow-x: hidden;
 }
 
-.title {
+#linkedin {
+  position: absolute;
+  width: -1%;
+  height: -6%;
+}
 
-  position: fixed;
+#github {
+  position: absolute;
+  left: 15%;
+}
+
+#resumebtn {
+  position: absolute;
+  left: 20%;
+  background-color: white;
+  border-radius: 10px;
+  padding-top: 2.10%;
+  height: 6%;
+  font-size: 1.5rem;
+}
+
+#name {
+  padding-top: 4%;
+}
+
+.title {
+  font-size: 1.25rem;
+  position: absolute;
   top: 0;
   background-color: #28273F;
   color: white;
   height: 50%;
   width: 100%;
-  padding-left: 6%;
+  padding-left: 11%;
+  z-index: 1;
 }
 
 .skill {
@@ -32,7 +58,7 @@ body {
   width: 100%;
   color: orange;
   top: 55%;
-  left: 6%;
+  left: 11%;
 
 }
 
@@ -48,7 +74,7 @@ body {
   width: 100%;
   color: orange;
   top: 85%;
-  left: 6%;
+  left: 11%;
 }
 
 #firstproject {
