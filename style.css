@@ -1,6 +1,5 @@
 
 #gif {
-
   position: absolute;
   top: 0;
   left: 0;
@@ -21,16 +20,9 @@ body {
   top: 50%;
   transition: 1s;
   background-color: white;
-  animation-name: linked;
-  animation-duration: 3s;
 }
 
 #linkedin:hover {transform: scale(1.3);}
-
-@@keyframes linked {
-  0% {transformY: -20%;}
-  100% {tranaformY: 50%;}
-}
 
 #github {
   position: absolute;
@@ -55,12 +47,16 @@ body {
 
 #name {
   padding-top: 4%;
-  font-weight: 900;
+  font-weight: 600;
+}
+
+#description {
+  font-weight: 400;
 }
 
 .title {
-  animation: fadein 1s;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
+  font-weight: 400;
   position: absolute;
   top: 0;
   background-color: #28273F;
