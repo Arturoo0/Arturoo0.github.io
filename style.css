@@ -78,13 +78,17 @@ body {
   color: orange;
   top: 80%;
   left: 11%;
+}
 
+#startQuotation {
+  margin-bottom: 80px;
 }
 
 #inSkill {
   position: absolute;
   top: 17%;
   left: 35%;
+  margin-top: 30px;
 }
 
 .project1 {
