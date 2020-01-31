@@ -1,12 +1,12 @@
 
-#gif {
-  position: absolute;
+/* #gif {
+  position: static;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   z-index: -1;
-}
+} */
 
 body {
   font-family: "Montserrat", sans-serif;
@@ -52,17 +52,14 @@ body {
   font-size: 1.5rem;
   font-weight: 400;
   position: absolute;
-  top: 0;
   background-color: #28273F;
   color: white;
   height: 70%;
   width: 100%;
   padding-left: 11%;
-  z-index: 1;
-  background-image:image(back.gif);
+  /* background-image:image(back.gif); */
 }
 
 #Projects {
-  position: relative;
-  top: 50%;
+
 }
