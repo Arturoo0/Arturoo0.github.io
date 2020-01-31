@@ -16,33 +16,24 @@ body {
 
 #linkedin {
   position: relative;
-  top: 50%;
   transition: 1s;
-  background-color: white;
 }
 
 #linkedin:hover {transform: scale(1.3);}
 
 #github {
   position: relative;
-  left: 15%;
-  top: 50%;
-  bottom: 50%;
+  left: 3%;
   transition: 1s;
-  background-color: white;
 }
 
 #github:hover {transform: scale(1.3);}
 
 #resumebtn {
-  position: absolute;
-  background-color: white;
+  position: relative;
   border-radius: 10px;
-  padding-top: 1.5%;
-  height: 6%;
+  top: 20%;
   font-size: 1.5rem;
-  top: 70%;
-  left: 10%;
   color: orange;
   font-weight: 600;
 }
@@ -57,7 +48,7 @@ body {
 }
 
 .title {
-  position: relative;
+  position: static;
   font-size: 1.5rem;
   font-weight: 400;
   position: absolute;
@@ -71,37 +62,7 @@ body {
   background-image:image(back.gif);
 }
 
-.skill {
-
-  position: absolute;
-  width: 100%;
-  color: orange;
-  top: 80%;
-  left: 11%;
-}
-
-#startQuotation {
-  margin-bottom: 80px;
-}
-
-#inSkill {
-  position: absolute;
-  top: 17%;
-  left: 35%;
-  margin-top: 30px;
-}
-
-.project1 {
-
-  position: absolute;
-  width: 100%;
-  color: orange;
-  top: 110%;
-  left: 11%;
-}
-
-#firstproject {
-  position: absolute;
-  top: 17%;
-  left: 35%;
+#Projects {
+  position: relative;
+  top: 50%;
 }
