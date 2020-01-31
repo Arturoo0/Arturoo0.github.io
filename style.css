@@ -36,7 +36,6 @@ body {
   padding-top: 5%;
   color: orange;
   font-weight: 600;
-
 }
 
 #name {
@@ -58,9 +57,17 @@ body {
   padding-top: 4%;
   padding-bottom: 10%;
   padding-left: 5%;
-  background-image:image(back.gif);
 }
 
-#Projects {
+#ProjectContainer{
+  padding-left: 5%;
+  padding-top: 4%;
+}
 
+.Projects {
+
+  position: static;
+  font-size: 2rem;
+  padding-top: 6%;
+  padding-left: 5%;
 }
