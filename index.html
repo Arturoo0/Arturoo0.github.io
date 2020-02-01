@@ -14,26 +14,53 @@
     <div class="title">
       <h1 id="name">ARTURO PORTELLES</h1>
       <h3 id="description">Sophomore studying computer science at FIU</h1>
-      <img src="back.gif" id="gif"></img>
+      <!-- <img src="back.gif" id="gif"></img> -->
 
-      <div>
-        <a href="https://www.linkedin.com/in/arturo-p-914059157/" id="linkedin" style="color: Dodgerblue" class="fab fa-linkedin fa-2x"></a>
-        <a href="https://github.com/Arturoo0" id="github" style="color: orange" class="fab fa-github-square fa-2x"></a>
-      </div>
-
-      <div id="resumebtn">
-        <a href="#">
-          .View_Resume();
+      <div id="resumeContainer">
+        <a id="resumebtn" href="#">
+          View Resume
         </a>
       </div>
 
+      <div id="titleButtons">
+        <a href="https://www.linkedin.com/in/arturo-p-914059157/" id="linkedin" class="fab fa-linkedin fa-2x buttonAttributes"></a>
+        <a href="https://github.com/Arturoo0" id="github" class="fab fa-github-square fa-2x buttonAttributes"></a>
+      </div>
+
     </div>
 
-    <div id="Projects">
-      <h1>PROJECTS {</h1>
+    <div id="ProjectContainer">
+      <h1 id="projectHeader"> - PROJECTS - </h1>
 
+      <div class="Projects">
+        <h1 class="projectTitle">Maze Generator and Pathfinding Visualizer</h1>
+        <img class="ProjectImages" src="img/mazeAnim.gif"></img>
+        <h4>Desktop Application</h4>
 
+        <p class="projectText">The program animates the construction of variably sized mazes using a backtracking algorithm. <br>
+          The 'flood fill' path is also drawn along with a highlighted shortest path at then end.
+        </p>
+
+        <p>- See code - </p>
+        <a href="https://github.com/Arturoo0/mazePy" id="github" style="color: orange" class="fab fa-github-square fa-2x"></a>
+      </div>
+
+      <div class="Projects">
+        <h1 class="projectTitle">Graphing Calculator</h1>
+        <img class="ProjectImages" src="img/calculator.png"></img>
+        <h4>Desktop Application</h4>
+
+        <p class="projectText">A collaborative project that allows users to graph a wide range of functions <br>
+          along with displaying and computing bounded integrals.
+        </p>
+
+        <p>- See code - </p>
+        <a href="https://github.com/Arturoo0/GraphingCalculator" id="github" style="color: orange" class="fab fa-github-square fa-2x"></a>
+      </div>
+
+      <h1></h1>
     </div>
+
 
   </body>
 </html>
