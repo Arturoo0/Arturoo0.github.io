@@ -55,6 +55,17 @@ body {
   font-size: 1rem;
 }
 
+.seeCodeButton{
+  position: relative;
+  padding: 8px 22px;
+  border-radius: 25px;
+  background-color: #444444;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+  font-size: .8rem;
+}
+
 #name {
   font-size: 3rem;
   padding-top: 4%;
@@ -110,4 +121,17 @@ body {
   font-size: 1rem;
   padding-top: 1%;
   padding-bottom: 5%;
+}
+
+#webBottom{
+  position: static;
+  background-color: #333333;
+  height: 150px;
+  text-align: center;
+}
+
+#bottomName{
+  color: #999999;
+  font-weight: 800;
+  padding-top: 30px;
 }
