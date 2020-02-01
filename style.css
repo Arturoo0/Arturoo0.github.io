@@ -26,7 +26,6 @@ body {
 #github {
   position: relative;
   transition: 1s;
-  padding-left: 10px;
 }
 
 #github:hover {transform: scale(1.3);}
