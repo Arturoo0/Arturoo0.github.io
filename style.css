@@ -88,7 +88,7 @@ body {
 }
 
 .EducationContainer{
-  margin-bottom: 3%;
+  margin-bottom: 2%;
 }
 
 #educationHeader{
@@ -99,10 +99,32 @@ body {
   background-color: #555555;
   color: white;
   margin-top: 7px;
-  padding: 3% 3%;
-  display: inline-block;
   font-size: 1rem;
   font-weight: 500;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#schoolTitle{
+  font-weight: 600;
+  font-size: 1.2rem;
+  padding: 2.7% 2.7%;
+}
+
+#degree{
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 2% 2%;
+  margin-left: 24%;
+  margin-right: 24%;
+  font-style: italic;
+}
+
+#date{
+  font-weight: 400;
+  padding: 1.5% 1.5%;
+  margin-left: 26%;
+  margin-right: 26%;
 }
 
 .sep {
