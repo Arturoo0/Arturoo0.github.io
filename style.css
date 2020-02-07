@@ -85,6 +85,14 @@ body {
   background-size: cover;
 }
 
+.EducationContainer{
+  padding-top: 5%;
+}
+
+#EducationHeader{
+  text-align: center;
+}
+
 #ProjectContainer{
   padding-top: 4%;
   padding-bottom: 1%;
