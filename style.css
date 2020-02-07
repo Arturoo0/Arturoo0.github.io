@@ -87,8 +87,8 @@ body {
 
 #ProjectContainer{
   padding-top: 4%;
-  text-align: center;
   font-size: 1.5rem;
+  text-align: center;
 }
 
 .projectTitle{
@@ -108,7 +108,7 @@ body {
 
 #projectHeader{
   color: #3c4245;
-  font-weight: 900;
+  font-weight: 800;
   font-size: 2rem;
 }
 
@@ -121,7 +121,6 @@ body {
   font-size: 1rem;
   padding-top: 1%;
   padding-bottom: 5%;
-  display: inline-block;
 }
 
 #webBottom{
