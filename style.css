@@ -103,6 +103,7 @@ body {
   width: auto;
   max-width: 35%;
   max-height: 35%;
+  box-shadow: 0px 0px 20px #999999;
 }
 
 #projectHeader{
@@ -117,10 +118,10 @@ body {
 }
 
 .Projects {
-  position: static;
   font-size: 1rem;
   padding-top: 1%;
   padding-bottom: 5%;
+  display: inline-block;
 }
 
 #webBottom{
