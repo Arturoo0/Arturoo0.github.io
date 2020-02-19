@@ -108,23 +108,19 @@ body {
 #schoolTitle{
   font-weight: 600;
   font-size: 1.2rem;
-  padding: 2.7% 2.7%;
+  padding: 2% 2%;
 }
 
 #degree{
   font-weight: 500;
   font-size: 1rem;
-  padding: 2% 2%;
-  margin-left: 24%;
-  margin-right: 24%;
+  padding: 1.5% 1.5%;
   font-style: italic;
 }
 
 #date{
   font-weight: 400;
   padding: 1.5% 1.5%;
-  margin-left: 26%;
-  margin-right: 26%;
 }
 
 .sep {
