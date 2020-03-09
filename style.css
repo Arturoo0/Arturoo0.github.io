@@ -8,10 +8,26 @@
   z-index: -1;
 } */
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
   overflow-x: hidden;
   margin: 0 auto;
+  background-color: white;
+  /* background: rgb(246,251,255);
+  background: linear-gradient(90deg, rgba(246,251,255,1) 0%, rgba(239,239,244,1) 91%); */
+}
+
+.nav {
+  font-size: 1.10rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: white;
 }
 
 #linkedin {
@@ -41,6 +57,7 @@ body {
 
 #resumeContainer{
   margin-top: 40px;
+  transition: 1s;
 }
 
 #resumebtn {
@@ -53,6 +70,10 @@ body {
   text-decoration: none;
   color: black;
   font-size: 1rem;
+}
+
+#resumeContainer:hover {
+  transform: scale(1.10);
 }
 
 .seeCodeButton{
@@ -73,13 +94,28 @@ body {
   font-weight: 600;
 }
 
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInDown {
+  animation-name: fadeInDown;
+}
+
 .title {
   text-align: center;
   position: static;
   font-size: 1.5rem;
   font-weight: 400;
   color: white;
-  padding-top: 4%;
   padding-bottom: 4%;
   background-image: url("img/back.gif");
   background-size: cover;
