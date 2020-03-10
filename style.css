@@ -13,7 +13,7 @@ html {
 }
 
 body {
-  /* font-family: "Montserrat", sans-serif; */
+  font-family: "Montserrat", sans-serif;
   overflow-x: hidden;
   margin: 0 auto;
   background-color: white;
@@ -51,7 +51,7 @@ body {
 }
 
 .buttonAttributes {
-  color: #999999;
+  color: white;
   text-decoration: none;
 }
 
@@ -117,7 +117,8 @@ body {
   font-weight: 400;
   color: white;
   padding-bottom: 4%;
-  background-image: url("img/back.gif");
+  /* background-image: url("img/back.gif"); */
+  background: linear-gradient(90deg, rgba(61,61,66,1) 0%, rgba(91,98,103,1) 82%);
   background-size: cover;
   margin-bottom: 4%;
 }
@@ -131,6 +132,17 @@ body {
   margin-bottom: 5%;
 }
 
+.badge-info {
+  color: #fff;
+  background-color: #9AAEBB;
+}
+
+.btn-secondary {
+  color: #fff;
+  background-color: #86B1CC;
+  border: none;
+}
+
 #projectheader {
   font-size: 2.3rem;
   font-weight: bold;
@@ -140,7 +152,6 @@ body {
 }
 
 #webBottom {
-  background: rgb(91,98,103);
   background: linear-gradient(90deg, rgba(91,98,103,1) 0%, rgba(61,61,66,1) 82%);
   text-align: center;
   color: white;
