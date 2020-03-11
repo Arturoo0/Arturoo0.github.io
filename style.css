@@ -123,9 +123,9 @@ body {
   font-weight: 400;
   color: white;
   padding-bottom: 4%;
-  /* background-image: url("img/back.gif"); */
-  background: linear-gradient(90deg, rgba(61,61,66,1) 0%, rgba(91,98,103,1) 82%);
-  background-size: cover;
+  background-image: url("img/backgroundTest.jpg");
+  /* background: linear-gradient(90deg, rgba(61,61,66,1) 0%, rgba(91,98,103,1) 82%);
+  background-size: cover; */
   margin-bottom: 4%;
 }
 
