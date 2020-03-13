@@ -130,7 +130,8 @@ body {
 }
 
 #projectscontainer {
-  margin: 0 10%;
+  padding-left: 10%;
+  padding-right: 10%;
   margin-bottom: 5%;
 }
 
