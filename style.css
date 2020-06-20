@@ -168,7 +168,9 @@ body {
   font-size: 1rem;
 }
 
-.spinner-border {
+#loader {
+  background: rgb(34,40,49);
+  background: linear-gradient(90deg, rgba(34,40,49,1) 0%, rgba(140,157,162,1) 100%, rgba(12,40,46,1) 100%);
   position: fixed;
   height: 300px;
   width: 300px;

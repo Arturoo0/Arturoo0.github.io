@@ -1,12 +1,12 @@
 
-function removeSpinner(){
-  spinner = document.querySelector('.spinner-border');
-  spinner.remove();
+function removeLoader(){
+  loader = document.querySelector('#loader');
+  loader.remove();
 }
 
 window.onload = () => {
 
-  removeSpinner();
+  removeLoader();
 
   pageBody = `
     <div class="title animated fadeInDown shadow">
