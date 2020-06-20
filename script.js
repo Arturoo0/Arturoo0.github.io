@@ -1,5 +1,12 @@
 
-document.addEventListener('DOMContentLoaded', function() {
+function removeSpinner(){
+  spinner = document.querySelector('.spinner-border');
+  spinner.remove();
+}
+
+window.onload = () => {
+
+  removeSpinner();
 
   pageBody = `
     <div class="title animated fadeInDown shadow">
@@ -95,4 +102,4 @@ document.addEventListener('DOMContentLoaded', function() {
   `
 
   document.body.innerHTML += pageBody;
-});
+}
