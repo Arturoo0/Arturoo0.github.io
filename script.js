@@ -5,7 +5,6 @@ function removeLoader(){
 }
 
 window.onload = () => {
-
   removeLoader();
 
   pageBody = `
@@ -21,9 +20,11 @@ window.onload = () => {
         <a href="https://github.com/Arturoo0" id="github" class="fab fa-github-square fa-1x buttonAttributes"></a>
       </div>
     </div>
+    <div id="education-container">
+    </div>
     <div id="projectscontainer">
       <div id="projectheader" class="animated slideInRight">
-        Projects
+        <h1 id="project-title">Projects</h1>
       </div>
         <div class="row">
           <div class="col-lg-4 col-md-6">
