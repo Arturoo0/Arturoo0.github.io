@@ -175,3 +175,7 @@ body {
   margin-top: -150px;
   margin-left: -150px;
 }
+
+.card-body {
+  padding: 1.75rem;
+}
