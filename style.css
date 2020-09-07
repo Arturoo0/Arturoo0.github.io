@@ -11,7 +11,7 @@ body {
 }
 
 #linkedin {
-  position: relative;
+  font-size: 1.8rem;
   transition: 1s;
   margin-top: 10px;
   padding-right: 10px;
@@ -24,7 +24,7 @@ body {
 }
 
 #github {
-  position: relative;
+  font-size: 1.8rem;
   transition: 1s;
 }
 
@@ -57,11 +57,12 @@ body {
   font-weight: 600;
   text-decoration: none;
   color: black;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 #resumeContainer:hover {
-  transform: scale(1.10);
+  transform: scale(1.05);
+  opacity: .6;
 }
 
 .seeCodeButton{
@@ -101,7 +102,7 @@ body {
   padding: 125px 0 100px 0;
   height: 500px;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   font-weight: 400;
   color: white;
   background-image: url("img/backgroundTest.jpg");
@@ -109,8 +110,7 @@ body {
 }
 
 #projectscontainer {
-  padding-left: 13%;
-  padding-right: 13%;
+  padding: 0 13%;
   margin-bottom: 5%;
 }
 
@@ -130,9 +130,10 @@ body {
 }
 
 .btn-secondary {
-  color: #fff;
-  background-color: #86B1CC;
+  color: #52575d;
+  background-color: white;
   border: none;
+  font-size: 1.3rem;
 }
 
 #projectheader {
@@ -145,7 +146,7 @@ body {
 
 .card-title {
   font-weight: 600;
-  color: #333333;
+  color: #52575d;
 }
 
 #webBottom {
@@ -172,4 +173,11 @@ body {
 
 .card-body {
   padding: 1.75rem;
+}
+
+.footer-social-links {
+  font-size: 1.3rem;
+  transition: 1s;
+  margin-top: 10px;
+  padding-right: 10px;
 }
