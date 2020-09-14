@@ -5,7 +5,6 @@ function removeLoader(){
 }
 
 window.onload = () => {
-
   removeLoader();
 
   pageBody = `
@@ -23,7 +22,7 @@ window.onload = () => {
     </div>
     <div id="projectscontainer">
       <div id="projectheader" class="animated slideInRight">
-        Projects
+        <h1 id="project-title">Projects</h1>
       </div>
         <div class="row">
           <div class="col-lg-4 col-md-6">
@@ -37,7 +36,7 @@ window.onload = () => {
                 <br>
                 <br>
                 <a class="btn btn-secondary" href="https://github.com/Arturoo0/GraphingCalculator">
-                  See code
+                  <i class="fas fa-code-branch"></i></i>
                 </a>
               </div>
             </div>
@@ -53,8 +52,8 @@ window.onload = () => {
                 <span class="badge badge-pill badge-info">JavaScript</span>
                 <br>
                 <br>
-                <a href="http://arturoportelles.me/WebSort/" class="btn btn-secondary">Visit</a>
-                <a href="https://github.com/Arturoo0/WebSort" class="btn btn-secondary">See code</a>
+                <a href="http://arturoportelles.me/WebSort/" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                <a href="https://github.com/Arturoo0/WebSort" class="btn btn-secondary"><i class="fas fa-code-branch"></i></i></a>
               </div>
             </div>
           </div>
@@ -71,8 +70,8 @@ window.onload = () => {
                 <span class="badge badge-pill badge-info">CSS</span>
                 <br>
                 <br>
-                <a href="https://weather-tracker-js.herokuapp.com/" class="btn btn-secondary">Visit</a>
-                <a href="https://github.com/Arturoo0/Weather-tracker-" class="btn btn-secondary">See code</a>
+                <a href="https://weather-tracker-js.herokuapp.com/" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                <a href="https://github.com/Arturoo0/Weather-tracker-" class="btn btn-secondary"><i class="fas fa-code-branch"></i></i></a>
               </div>
             </div>
           </div>
@@ -86,7 +85,7 @@ window.onload = () => {
                 <span class="badge badge-pill badge-info">Pygame</span>
                 <br>
                 <br>
-                <a href="https://github.com/Arturoo0/mazePy" class="btn btn-secondary">See code</a>
+                <a href="https://github.com/Arturoo0/mazePy" class="btn btn-secondary"><i class="fas fa-code-branch"></i></i></a>
               </div>
             </div>
           </div>
@@ -95,8 +94,8 @@ window.onload = () => {
     <div class="container-fluid" id="webBottom">
       <p>ARTURO PORTELLES</p>
       <div>
-        <a href="https://www.linkedin.com/in/arturo-p-914059157/" id="linkedin" class="fab fa-linkedin fa-1x buttonAttributes"></a>
-        <a href="https://github.com/Arturoo0" id="github" class="fab fa-github-square fa-1x buttonAttributes"></a>
+        <a href="https://www.linkedin.com/in/arturo-p-914059157/" class="footer-social-links fab fa-linkedin fa-1x buttonAttributes"></a>
+        <a href="https://github.com/Arturoo0" class="footer-social-links fab fa-github-square fa-1x buttonAttributes"></a>
       </div>
     </div>
   `
