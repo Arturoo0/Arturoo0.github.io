@@ -6,7 +6,6 @@ function removeLoader(){
 
 window.onload = () => {
   removeLoader();
-
   pageBody = `
     <div class="title animated fadeInDown shadow">
       <h1 id="name">Arturo Portelles</h1>
@@ -54,6 +53,24 @@ window.onload = () => {
                 <br>
                 <a href="http://arturoportelles.me/WebSort/" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
                 <a href="https://github.com/Arturoo0/WebSort" class="btn btn-secondary"><i class="fas fa-code-branch"></i></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card shadow text-left  animated fadeInRight">
+              <img src="img/covidsync.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">CovidSync</h5>
+                <p class="card-text">An application that integrates various APIs and services to provide crucial resources for the Spanish-speaking and bilingual communities about COVID-19. Won 2nd place at PantherHacks 2020.</p>
+                <span class="badge badge-pill badge-info">Node.js</span>
+                <span class="badge badge-pill badge-info">React</span>
+                <span class="badge badge-pill badge-info">Express</span>
+                <span class="badge badge-pill badge-info">HTML</span>
+                <span class="badge badge-pill badge-info">CSS</span>
+                <span class="badge badge-pill badge-info">JavaScript</span>
+                <br>
+                <br>
+                <a href="https://github.com/FultonG/CovidSync" class="btn btn-secondary"><i class="fas fa-code-branch"></i></i></a>
               </div>
             </div>
           </div>
