@@ -7,25 +7,25 @@ function removeLoader(){
 window.onload = () => {
   removeLoader();
   pageBody = `
-    <div class="title animated fadeInDown shadow">
+    <div class="title animated fadeIn shadow">
       <h1 id="name">Arturo Portelles</h1>
       <div id="resumeContainer">
         <a id="resumebtn" href="resume/resume.pdf">
           View Resume
         </a>
       </div>
-      <div id="titleButtons" class="fadeInDown">
+      <div id="titleButtons" class="fadeIn">
         <a href="https://www.linkedin.com/in/arturo-p-914059157/" id="linkedin" class="fab fa-linkedin fa-1x buttonAttributes"></a>
         <a href="https://github.com/Arturoo0" id="github" class="fab fa-github-square fa-1x buttonAttributes"></a>
       </div>
     </div>
     <div id="projectscontainer">
-      <div id="projectheader" class="animated slideInRight">
+      <div id="projectheader" class="animated fadeIn">
         <h1 id="project-title">Projects</h1>
       </div>
         <div class="row">
           <div class="col-lg-4 col-md-6">
-            <div class="card shadow text-left  animated fadeInLeft">
+            <div class="card shadow text-left  animated fadeIn">
               <img src="img/calculator.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Graphing Calculator</h5>
@@ -41,7 +41,7 @@ window.onload = () => {
             </div>
           </div>
           <div class="col-lg-4 col-md-6">
-            <div class="card shadow text-left animated slideInUp">
+            <div class="card shadow text-left animated fadeIn">
               <img src="img/webSort.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">WebSort</h5>
@@ -57,7 +57,7 @@ window.onload = () => {
             </div>
           </div>
           <div class="col-lg-4 col-md-6">
-            <div class="card shadow text-left  animated fadeInRight">
+            <div class="card shadow text-left  animated fadeIn">
               <img src="img/covidsync.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">CovidSync</h5>
@@ -75,7 +75,7 @@ window.onload = () => {
             </div>
           </div>
           <div class="col-lg-4 col-md-6">
-            <div class="card shadow text-left  animated fadeInRight">
+            <div class="card shadow text-left  animated fadeIn">
               <img src="img/weather.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Weather Tracker</h5>
@@ -93,7 +93,7 @@ window.onload = () => {
             </div>
           </div>
           <div class="col-lg-4 col-md-6">
-            <div class="card shadow text-left animated fadeInLeft">
+            <div class="card shadow text-left animated fadeIn">
               <img src="img/mazeAnim.gif" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Maze Generator and Pathfinding Visualizer</h5>
@@ -116,6 +116,5 @@ window.onload = () => {
       </div>
     </div>
   `
-
   document.body.innerHTML += pageBody;
 }
