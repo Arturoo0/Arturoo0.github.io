@@ -108,7 +108,7 @@ window.onload = () => {
           </div>
         </div>
     </div>
-    <div class="container-fluid" id="webBottom">
+    <div class="container-fluid shadow" id="webBottom">
       <p>ARTURO PORTELLES</p>
       <div>
         <a href="https://www.linkedin.com/in/arturo-p-914059157/" class="footer-social-links fab fa-linkedin fa-1x buttonAttributes"></a>
